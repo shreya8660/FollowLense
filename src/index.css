@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-main: #0B090E;
+    --card-surface: #131117;
+    --card-surface-hover: #18151F;
+    --border-subtle: #211C28;
+    --border-hover: #362942;
+    --accent-purple: #A855F7;
+    --accent-pink: #EC4899;
+  }
+
+  body {
+    background-color: var(--bg-main);
+    color: #F1F1F6;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  /* Monospace tabular numerals for all metrics and tables */
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum";
+  }
+
+  /* Custom scrollbar styling for dark theme */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0B0B10;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #232332;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3B3B52;
+  }
+}

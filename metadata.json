@@ -1,0 +1,6 @@
+{
+  "name": "FollowLens — Instagram Follower Tracker",
+  "description": "Professional Instagram follower tracking & analytics dashboard. Identify unfollowers, non-reciprocal follows, new followers, and track growth over time with snapshot comparisons.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
